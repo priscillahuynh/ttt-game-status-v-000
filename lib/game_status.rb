@@ -38,7 +38,6 @@ end
 end
 
 def full?(board)
-if board.all != " "
-  false
+  board.all? {|index| index == "X" || index == "O"}
 end
 end
