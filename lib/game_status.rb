@@ -58,11 +58,3 @@ def winner(board)
     board[win_combination.first]
   end
 end
-
-def winner(board)
- if won?(board) && board[0] == "X"
-  return "X"
-elsif won?(board) && board[1] == "O"
-  return "O"
-end
-end
