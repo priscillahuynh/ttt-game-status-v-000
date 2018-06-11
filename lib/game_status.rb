@@ -35,7 +35,7 @@ def won?(board)
   position_8 = board[win_index_8]
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-board.any?{|position| position= " "}
+if board.any?{|position| position= " "}
 return = true
 end
 end
