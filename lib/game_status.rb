@@ -41,3 +41,4 @@ def full?(board)
 if board.all != " "
   false
 end
+end
