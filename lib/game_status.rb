@@ -38,5 +38,6 @@ empty_board = false
 win_combinations.each do |position|
   position = " "
 empty_board=true
+return empty_board
 end
 end
