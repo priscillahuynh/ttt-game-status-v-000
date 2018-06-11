@@ -15,9 +15,9 @@ WIN_COMBINATIONS = [
   [2,4,6]  #Right diagonal
 ]
 
-board[2] // "X"
-board[4] // "X"
-board[6] // "X"
+# board[2] // "X"
+# board[4] // "X"
+# board[6] // "X"
 
 def empty_board?
   board.any? {|position| !position == "X" && !position == "O"}
@@ -46,5 +46,4 @@ WIN_COMBINATIONS.each |win_combination| # [0, 1, 2]
   else
     false
   end
-
 end
