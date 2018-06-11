@@ -15,7 +15,6 @@ WIN_COMBINATIONS = [
   [2,4,6]  #Right diagonal
 ]
 
-
 def empty_board?
   board.any? {|position| !position == "X" || !position == "O"}
 end
