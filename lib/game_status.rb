@@ -35,6 +35,5 @@ def won?(board)
   position_8 = board[win_index_8]
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-empty_board = true
 board.any?{|position| position= " "}
 end
