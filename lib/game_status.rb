@@ -20,7 +20,7 @@ def empty_board?
 end
 #
 def won?(board)
-#   if empty_board=false
+  if empty_board=false
 #     return empty_board
 #   end
 # WIN_COMBINATIONS.each |win_combo|
