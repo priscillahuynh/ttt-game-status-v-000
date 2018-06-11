@@ -36,3 +36,7 @@ WIN_COMBINATIONS.find do |win_combination| # [0, 1, 2]
 end
    false
 end
+
+def full?(board)
+
+end
