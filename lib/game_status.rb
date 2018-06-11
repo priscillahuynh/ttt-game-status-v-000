@@ -55,9 +55,9 @@ end
 
 
 def winner(board)
-if won?(board) && board[index[0]] == "X"
+if won?(board) && win_combination[0]] == "X"
   return "X"
-elsif won?(board) && board[index[0]] == "O"
+elsif won?(board) && win_combination[0] == "O"
   return "O"
 end
 end
