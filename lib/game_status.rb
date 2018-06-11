@@ -24,4 +24,7 @@ def won(board)
   win_index_6 = WIN_COMBINATIONS[5]
   win_index_7 = WIN_COMBINATIONS[6]
   win_index_8 = WIN_COMBINATIONS[7]
+
+  position_1 = board[win_index_1]
+  position_2 = board[win_index_2]
 end
