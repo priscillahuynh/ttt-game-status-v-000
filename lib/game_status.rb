@@ -15,6 +15,16 @@ WIN_COMBINATIONS = [
   [2,4,6]  #Right diagonal
 ]
   
+  
+def empty_board?
+  board.any? {|position| !position == "X" || !position == "O"}
+end
+
+def won?(board)
+  if empty_board=false
+    return empty_board
+  end
+
   win_index_1 = WIN_COMBINATIONS[0]
   win_index_2 = WIN_COMBINATIONS[1]
   win_index_3 = WIN_COMBINATIONS[2]
@@ -32,14 +42,5 @@ WIN_COMBINATIONS = [
   position_6 = board[win_index_6]
   position_7 = board[win_index_7]
   position_8 = board[win_index_8]
-
-def empty_board?
-  board.any? {|position| !position == "X" || !position == "O"}
-end
-
-def won?(board)
-  if empty_board=false
-    return empty_board
-  end
 
 end
