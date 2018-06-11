@@ -15,41 +15,35 @@ WIN_COMBINATIONS = [
   [2,4,6]  #Right diagonal
 ]
 
+board[2] // "X"
+board[4] // "X"
+board[6] // "X"
+
 def empty_board?
   board.any? {|position| !position == "X" && !position == "O"}
 end
 #
 def won?(board)
-  if empty_board=false
-    return empty_board
-  end
-WIN_COMBINATIONS.each |win_index|
-  win_index_1 = WIN_COMBINATIONS[0]
-  win_index_2 = WIN_COMBINATIONS[1]
-  win_index_3 = WIN_COMBINATIONS[2]
-  win_index_4 = WIN_COMBINATIONS[3]
-  win_index_5 = WIN_COMBINATIONS[4]
-  win_index_6 = WIN_COMBINATIONS[5]
-  win_index_7 = WIN_COMBINATIONS[6]
-  win_index_8 = WIN_COMBINATIONS[7]
-  #
-  position_1 = board[win_index_1]
-  position_2 = board[win_index_2]
-  position_3 = board[win_index_3]
-  position_4 = board[win_index_4]
-  position_5 = board[win_index_5]
-  position_6 = board[win_index_6]
-  position_7 = board[win_index_7]
-  position_8 = board[win_index_8]
+  
+WIN_COMBINATIONS.each |win_combination| # [0, 1, 2]
+  win_index_1 = win_combination[0] # 0 
+  win_index_2 = win_combination[1] # 1
+  win_index_3 = win_combination[2] # 2
+  
+  position_1 = board[win_index_1] # "X"
+  position_2 = board[win_index_2] # "X"
+  position_3 = board[win_index_3] # "X"
+  
 
   # position_1 = board[win_index_1] # load the value of the board at win_index_1
   # position_2 = board[win_index_2] # load the value of the board at win_index_2
   # position_3 = board[win_index_3] # load the value of the board at win_index_3
   #
-  # if position_1 == "X" && position_2 == "X" && position_3 == "X"
-  #   return win_combination # return the win_combination indexes that won.
-  # else
-  #   false
-  # end
+  if position_1 == "X" && position_2 == "X" && position_3 == "X"
+    return win_combination # return the win_combination indexes that won.
+  elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
+  else
+    false
+  end
 
 end
