@@ -38,8 +38,6 @@ end
 end
 
 def full?(board)
-board.each do |position|
-  position.all =" "
-
-end
+if board.all != " "
+  false
 end
