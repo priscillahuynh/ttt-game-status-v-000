@@ -32,9 +32,10 @@ def won?(board)
 # #   win_index_5 = WIN_COMBINATIONS[5]
 # #   win_index_6 = WIN_COMBINATIONS[6]
 # #   win_index_7 = WIN_COMBINATIONS[7]
-#   position_1 = board[win_index_0]
-#   position_2 = board[win_index_1]
-#   position_3 = board[win_index_2]
+
+  #   position_1 = board[win_index_0]
+  #   position_2 = board[win_index_1]
+  #   position_3 = board[win_index_2]
 # #   position_4 = board[win_index_3]
 # #   position_5 = board[win_index_4]
 # #   position_6 = board[win_index_5]
