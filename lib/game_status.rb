@@ -43,6 +43,6 @@ end
 
 def draw?(board)
   if !won? && full?
-    puts draw
+    return true
   end
 end
