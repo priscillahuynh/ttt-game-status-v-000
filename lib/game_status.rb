@@ -34,7 +34,9 @@ def won(board)
   position_7 = board[win_index_7]
   position_8 = board[win_index_8]
 
-empty_board = true
+empty_board = false
 win_combinations.each do |position|
   position = " "
+empty_board=true
+end
 end
