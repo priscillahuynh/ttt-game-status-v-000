@@ -41,5 +41,5 @@ WIN_COMBINATIONS.each do |win_combination| # [0, 1, 2]
     return win_combination
   end
 end
-  return false
+   false
 end
