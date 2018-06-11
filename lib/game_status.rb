@@ -23,6 +23,7 @@ def won?(board)
   if empty_board=false
     return empty_board
   end
+end
 # WIN_COMBINATIONS.each |win_combo|
 #   win_index_0 = WIN_COMBINATIONS[0]
 #   win_index_1 = WIN_COMBINATIONS[1]
