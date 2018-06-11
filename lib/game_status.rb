@@ -34,4 +34,4 @@ WIN_COMBINATIONS = [
   # position_8 = board[win_index_8]
 
 def empty_board?
-  board.any? {|position| position == "X" || position == "O"}
+  board.any? {|position| !position == "X" || !position == "O"}
