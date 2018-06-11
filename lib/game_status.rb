@@ -40,5 +40,4 @@ def won?(board)
 # #   position_6 = board[win_index_5]
 # #   position_7 = board[win_index_6]
 # #   position_8 = board[win_index_7]
-# #
 end
