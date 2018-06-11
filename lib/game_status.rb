@@ -57,3 +57,4 @@ def winner?(board)
 if won?(board)
   put win_combination[0]
 end
+end
