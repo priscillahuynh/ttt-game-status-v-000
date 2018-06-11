@@ -24,7 +24,7 @@ def won?(board)
     return empty_board
   end
 WIN_COMBINATIONS.each |win_combo|
-  win_combo.each do {|value| value == "X"}
+  win_combo.any? {|value| value == "X","X","X"}
   # win_index_0 = WIN_COMBINATIONS[0]
   # win_index_1 = WIN_COMBINATIONS[1]
   # win_index_2 = WIN_COMBINATIONS[2]
