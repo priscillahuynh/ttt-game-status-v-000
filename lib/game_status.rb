@@ -43,3 +43,4 @@ WIN_COMBINATIONS.each do |win_combination| # [0, 1, 2]
     false
   end
 end
+end
