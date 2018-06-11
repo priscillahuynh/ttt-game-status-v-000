@@ -70,6 +70,6 @@ end
 # if won?(board) && win_combination[0] == "X"
 #   return "X"
 # elsif won?(board) && win_combination[0] == "O"
-#   return "O"  
+#   return "O"
 # end
 # end
