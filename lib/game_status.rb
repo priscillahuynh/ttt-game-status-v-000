@@ -41,3 +41,4 @@ def full?(board)
 board.all do {|position| position != " "}
 end
 end
+end
