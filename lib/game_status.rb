@@ -14,7 +14,7 @@ WIN_COMBINATIONS = [
   [0,4,8], #Left diagonal
   [2,4,6]  #Right diagonal
 ]
-  # 
+  #
   # win_index_1 = WIN_COMBINATIONS[0]
   # win_index_2 = WIN_COMBINATIONS[1]
   # win_index_3 = WIN_COMBINATIONS[2]
@@ -23,7 +23,7 @@ WIN_COMBINATIONS = [
   # win_index_6 = WIN_COMBINATIONS[5]
   # win_index_7 = WIN_COMBINATIONS[6]
   # win_index_8 = WIN_COMBINATIONS[7]
-  # 
+  #
   # position_1 = board[win_index_1]
   # position_2 = board[win_index_2]
   # position_3 = board[win_index_3]
