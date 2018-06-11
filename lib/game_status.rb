@@ -42,7 +42,7 @@ WIN_COMBINATIONS.each {|win_combo|
   position_6 = board[win_index_6]
   position_7 = board[win_index_7]
   position_8 = board[win_index_8]
-  
+
 if position_1== "X" && position_2 =="X" && position_3=="X"
   return WIN_COMBINATIONS
 elsif position_1 == "O" && position_2 =="O" && position_3 =="O"
@@ -50,5 +50,4 @@ elsif position_1 == "O" && position_2 =="O" && position_3 =="O"
 end
 }
 return false
-
 end
