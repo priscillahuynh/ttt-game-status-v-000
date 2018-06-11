@@ -55,7 +55,7 @@ end
 
 
 def winner(board)
-if win_combination=won?(board)
+if won?(board)
   return win_combination.first
 end
 end
