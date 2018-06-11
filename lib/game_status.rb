@@ -24,8 +24,9 @@ def won?(board)
     return empty_board
   end
 WIN_COMBINATIONS.each |win_combo|
-  win_combo.any? {|value| value == "X","X","X" || value == "O","O","O"}
+  if win_combo.any? {|value| value == "X","X","X" || value == "O","O","O"}
   puts win_combo
+else
   # win_index_0 = WIN_COMBINATIONS[0]
   # win_index_1 = WIN_COMBINATIONS[1]
   # win_index_2 = WIN_COMBINATIONS[2]
