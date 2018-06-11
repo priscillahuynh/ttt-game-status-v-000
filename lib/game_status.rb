@@ -42,3 +42,4 @@ board.each do |position|
   position.all =" "
 end
 end
+end
