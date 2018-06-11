@@ -66,7 +66,7 @@ def winner?(board)
     end
   end
 end
-# 
+#
 # def winner?
 # if win_combination=won?(board)
 #   return win_combination.first
