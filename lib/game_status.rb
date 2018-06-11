@@ -40,7 +40,6 @@ WIN_COMBINATIONS.each do |win_combination| # [0, 1, 2]
   elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
     return win_combination
   else
-    false
   end
 end
 end
