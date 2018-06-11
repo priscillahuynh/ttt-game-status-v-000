@@ -41,7 +41,7 @@ def won?(board)
 # #   position_7 = board[win_index_6]
 # #   position_8 = board[win_index_7]
 # #
-if WIN_COMBINATIONS[0][0] == "X" && position_2 == "X" && position_3 =="X"
+if WIN_COMBINATIONS[0][0] == "X" && IN_COMBINATIONS[0][1]== "X" && IN_COMBINATIONS[0][2]=="X"
 #   return WIN_COMBINATIONS
 # elsif position_1 == "O" && position_2 =="O" && position_3== "O"
 #   return WIN_COMBINATIONS
