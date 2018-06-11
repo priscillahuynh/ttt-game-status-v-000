@@ -26,6 +26,8 @@ def won?(board)
 WIN_COMBINATIONS.each |win_combo|
   if win_combo.all? = "X"
     puts  WIN_COMBINATIONS
+  if win_combo.all? = "O"
+    puts WIN_COMBINATIONS
   # win_index_0 = WIN_COMBINATIONS[0]
   # win_index_1 = WIN_COMBINATIONS[1]
   # win_index_2 = WIN_COMBINATIONS[2]
