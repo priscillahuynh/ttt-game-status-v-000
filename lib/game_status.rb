@@ -40,6 +40,6 @@ end
 def full?(board)
 board.each do |position|
   position.all =" "
-end
+
 end
 end
