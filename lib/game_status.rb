@@ -36,3 +36,7 @@ WIN_COMBINATIONS = [
 def empty_board?
   board.any? {|position| !position == "X" || !position == "O"}
 end
+
+def won?
+  if empty_board=false
+    return empty_board
