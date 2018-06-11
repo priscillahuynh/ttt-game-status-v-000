@@ -24,7 +24,7 @@ def won?(board)
   if empty_board=false
     return empty_board
   end
-WIN_COMBINATIONS.any? |win_combo|
+WIN_COMBINATIONS.any? {|win_combo|
   win_index_1 = WIN_COMBINATIONS[0]
   win_index_2 = WIN_COMBINATIONS[1]
   win_index_3 = WIN_COMBINATIONS[2]
@@ -34,13 +34,15 @@ WIN_COMBINATIONS.any? |win_combo|
   win_index_7 = WIN_COMBINATIONS[6]
   win_index_8 = WIN_COMBINATIONS[7]
 
-  position_1 = board[win_index_1]
-  position_2 = board[win_index_2]
-  position_3 = board[win_index_3]
-  position_4 = board[win_index_4]
-  position_5 = board[win_index_5]
-  position_6 = board[win_index_6]
-  position_7 = board[win_index_7]
-  position_8 = board[win_index_8]
+if position_1== "X" && position_2 =="X" && position_3=="X"
+  return win_combo
+  # position_1 = board[win_index_1]
+  # position_2 = board[win_index_2]
+  # position_3 = board[win_index_3]
+  # position_4 = board[win_index_4]
+  # position_5 = board[win_index_5]
+  # position_6 = board[win_index_6]
+  # position_7 = board[win_index_7]
+  # position_8 = board[win_index_8]
 
 end
