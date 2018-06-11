@@ -23,29 +23,29 @@ def won?(board)
   if empty_board=false
     return empty_board
   end
-WIN_COMBINATIONS.each |win_index|
-  win_index_0 = WIN_COMBINATIONS[0]
-  win_index_1 = WIN_COMBINATIONS[1]
-  win_index_2 = WIN_COMBINATIONS[2]
-#   win_index_3 = WIN_COMBINATIONS[3]
-#   win_index_4 = WIN_COMBINATIONS[4]
-#   win_index_5 = WIN_COMBINATIONS[5]
-#   win_index_6 = WIN_COMBINATIONS[6]
-#   win_index_7 = WIN_COMBINATIONS[7]
-  position_1 = board[win_index_0]
-  position_2 = board[win_index_1]
-  position_3 = board[win_index_2]
-#   position_4 = board[win_index_3]
-#   position_5 = board[win_index_4]
-#   position_6 = board[win_index_5]
-#   position_7 = board[win_index_6]
-#   position_8 = board[win_index_7]
-#
-if position_1 == "X" && position_2 == "X" && position_3 =="X"
-  return WIN_COMBINATIONS
-elsif position_1 == "O" && position_2 =="O" && position_3== "O"
-  return WIN_COMBINATIONS
-else
-  false
-end
+# WIN_COMBINATIONS.each |win_index|
+#   win_index_0 = WIN_COMBINATIONS[0]
+#   win_index_1 = WIN_COMBINATIONS[1]
+#   win_index_2 = WIN_COMBINATIONS[2]
+# #   win_index_3 = WIN_COMBINATIONS[3]
+# #   win_index_4 = WIN_COMBINATIONS[4]
+# #   win_index_5 = WIN_COMBINATIONS[5]
+# #   win_index_6 = WIN_COMBINATIONS[6]
+# #   win_index_7 = WIN_COMBINATIONS[7]
+#   position_1 = board[win_index_0]
+#   position_2 = board[win_index_1]
+#   position_3 = board[win_index_2]
+# #   position_4 = board[win_index_3]
+# #   position_5 = board[win_index_4]
+# #   position_6 = board[win_index_5]
+# #   position_7 = board[win_index_6]
+# #   position_8 = board[win_index_7]
+# #
+# if position_1 == "X" && position_2 == "X" && position_3 =="X"
+#   return WIN_COMBINATIONS
+# elsif position_1 == "O" && position_2 =="O" && position_3== "O"
+#   return WIN_COMBINATIONS
+# else
+#   false
+# end
 end
