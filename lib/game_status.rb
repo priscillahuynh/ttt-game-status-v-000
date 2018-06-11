@@ -37,7 +37,7 @@ def empty_board?
   board.any? {|position| !position == "X" || !position == "O"}
 end
 
-def won?
+def won?(board)
   if empty_board=false
     return empty_board
   end
