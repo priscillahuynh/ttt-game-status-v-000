@@ -24,7 +24,7 @@ def won?(board)
     return empty_board
   end
 WIN_COMBINATIONS.each |win_combo|
-  win_index_1 = WIN_COMBINATIONS[0]
+  win_combo_1 = WIN_COMBINATIONS[0]
   win_index_2 = WIN_COMBINATIONS[1]
   win_index_3 = WIN_COMBINATIONS[2]
   win_index_4 = WIN_COMBINATIONS[3]
@@ -41,5 +41,5 @@ WIN_COMBINATIONS.each |win_combo|
   position_6 = board[win_index_6]
   position_7 = board[win_index_7]
   position_8 = board[win_index_8]
-  
+
 end
