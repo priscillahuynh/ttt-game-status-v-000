@@ -55,20 +55,20 @@ end
 
 def winner?(board)
   index = []
-  index = won?
+  index = won?(board)
   if index == false
     return nil
   else
-    if @board[index[0]] == "X"
+    if board[index[0]] == "X"
       return "X"
     else
       return "O"
     end
   end
 end
-
-def winner?
-if win_combination=won?(board)
-  return win_combination.first
-end
-end
+# 
+# def winner?
+# if win_combination=won?(board)
+#   return win_combination.first
+# end
+# end
