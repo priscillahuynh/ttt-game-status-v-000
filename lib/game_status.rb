@@ -16,5 +16,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won
-
+  win_index_1 = WIN_COMBINATIONS[0]
 end
