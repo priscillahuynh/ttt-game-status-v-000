@@ -34,10 +34,7 @@ def won?(board)
   position_7 = board[win_index_7]
   position_8 = board[win_index_8]
 
-empty_board = false
-win_combinations.each do |position|
-  position = " "
-empty_board=true
-return empty_board
-end
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+empty_board = true
+board.any?{|position| position= " "}
 end
